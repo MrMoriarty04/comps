@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Times } from '../times';
 
 @Component({
   selector: 'app-elements-home',
