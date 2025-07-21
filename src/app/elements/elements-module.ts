@@ -3,18 +3,20 @@ import { CommonModule } from '@angular/common';
 
 import { ElementsRoutingModule } from './elements-routing-module';
 import { ElementsHome } from './elements-home/elements-home';
+import { Placeholder } from './placeholder/placeholder';
+import { Times } from './times';
 
 
 @NgModule({
   declarations: [
-    ElementsHome
+    ElementsHome,
+    Placeholder,
   ],
   imports: [
     CommonModule,
-    ElementsRoutingModule
+    ElementsRoutingModule,
+    Times
   ],
-  exports:[
-    ElementsHome
-  ]
+  exports:[]
 })
 export class ElementsModule { }

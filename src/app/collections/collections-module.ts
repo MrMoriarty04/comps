@@ -13,8 +13,6 @@ import { CollectionsHome } from './collections-home/collections-home';
     CommonModule,
     CollectionsRoutingModule
   ],
-  exports:[
-    CollectionsHome
-  ]
+  exports:[]
 })
 export class CollectionsModule { }
