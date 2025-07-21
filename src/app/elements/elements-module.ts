@@ -7,12 +7,14 @@ import { ElementsRoutingModule } from './elements-routing-module';
 import { ElementsHome } from './elements-home/elements-home';
 import { Placeholder } from './placeholder/placeholder';
 import { Times } from './times';
+import { Segment } from './segment/segment';
 
 
 @NgModule({
   declarations: [
     ElementsHome,
     Placeholder,
+    Segment,
     
   ],
   imports: [
