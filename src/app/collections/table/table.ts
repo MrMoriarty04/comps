@@ -1,5 +1,6 @@
 import { Component ,Input, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-table',
   standalone: false,
@@ -8,8 +9,10 @@ import { Component ,Input, OnInit } from '@angular/core';
 })
 export class Table implements OnInit {
 
-  @Input() data:object = [];
-  @Input() headers:object = [];
+  @Input("class") classNames="";
+  @Input() data:any = [];
+  @Input() headers:any = [];
+
 
   constructor(){}
 

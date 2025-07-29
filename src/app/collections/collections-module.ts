@@ -4,12 +4,19 @@ import { CollectionsRoutingModule } from './collections-routing-module';
 import { CollectionsHome } from './collections-home/collections-home';
 import { Table } from './table/table';
 import { SharedModule } from '../shared/shared-module';
+import { Biography } from './biography/biography';
+import { Companies } from './companies/companies';
+import { Partners } from './partners/partners';
+
 
 
 @NgModule({
   declarations: [
     CollectionsHome,
-    Table
+    Table,
+    Biography,
+    Companies,
+    Partners
   ],
   imports: [
     CommonModule,
