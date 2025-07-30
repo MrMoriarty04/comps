@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared-module';
 import { Biography } from './biography/biography';
 import { Companies } from './companies/companies';
 import { Partners } from './partners/partners';
+import { Tabs } from './tabs/tabs';
 
 
 
@@ -16,7 +17,8 @@ import { Partners } from './partners/partners';
     Table,
     Biography,
     Companies,
-    Partners
+    Partners,
+    Tabs
   ],
   imports: [
     CommonModule,
