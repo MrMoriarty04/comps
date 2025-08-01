@@ -5,12 +5,14 @@ import { ModsRoutingModule } from './mods-routing-module';
 import { ModsHome } from './mods-home/mods-home';
 import { Modal } from './modal/modal';
 import { SharedModule } from "../shared/shared-module";
+import { Accordion } from './accordion/accordion';
 
 
 @NgModule({
   declarations: [
     ModsHome,
-    Modal
+    Modal,
+    Accordion
   ],
   imports: [
     CommonModule,
