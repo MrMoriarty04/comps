@@ -10,7 +10,7 @@ export class ModsHome {
 
   showModal=false;
 
-  showModalOnClick(){
+  ShowModalOnClick(){
     this.showModal = !this.showModal;
   }
 }
