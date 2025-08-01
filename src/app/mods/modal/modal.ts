@@ -14,5 +14,11 @@ export class Modal {
     document.body.appendChild(this.el.nativeElement);
   }
 
+  ngOnDestroy(){
+    this.el.nativeElement.remove();
+  }
+
+  
+
 }
  

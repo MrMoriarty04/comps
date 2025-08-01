@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ModsHome {
 
+  showModal=false;
+
+  showModalOnClick(){
+    this.showModal = !this.showModal;
+  }
 }
