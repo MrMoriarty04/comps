@@ -9,5 +9,15 @@ import { Component, Input } from '@angular/core';
 export class Accordion {
  
   @Input() items:any=[];
+  openedItemIndex=0; 
+
+
+  OnCLick(index:number){
+    if(index===this.openedItemIndex){
+      this.openedItemIndex=-1;
+    }
+    else
+    this.openedItemIndex=index;
+  }
 
 }
